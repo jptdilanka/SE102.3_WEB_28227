@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>TEST</title>
+    
+    </head>
+    <body><center><h1>Registration Form</h1>
+        <form action="submit.php" method="post">
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" id="Male" name="gender" value="Male">
+                        Male
+                        <input type="radio" id="Female" name="gender" value="Female">
+                        Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Favourite Music</td>
+                    <td>
+                        <input type="checkbox" id="pop" name="favouritemusic" value="pop">POP
+                        <input type="checkbox" id="rock" name="favouritemusic" value="rock">Pock
+                        <input type="checkbox" id="other" name="favouritemusic" value="other">Other
+                    </td>
+                </tr>
+                <tr><td>Additional Details</td>
+                    <td><textarea name="additionaldetails" rows="5" cols="20"></textarea></td>
+                    </tr>
+                <tr>
+                    <td><input type="checkbox" id="agree" name="agree">I agree to the terms and conditions</td>
+                </tr>
+            
+            <br>
+            <tr><td>
+            <input type="submit" value="Submit"></td>
+                <td><input type="reset" value="Reset"></td>
+            </tr></table>
+        </form>
+        </center>
+    </body>

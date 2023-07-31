@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html><head>
+    <title>css1</title>
+    <style>
+        .topicdiv{
+            background-color: sandybrown;
+            color: white;
+            margin: 4px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        .formdiv {
+            background-color: black;
+            max-width:400px;
+            margin: auto;
+            padding: 0.1px;
+            color: green
+        }
+        h3 {
+            margin: 0;
+            text-align: center;
+        }
+        .s{
+            background-color: greenyellow;
+            color: white;
+        }
+        .b{
+            background-color: red;
+            color: white;
+        }
+    </style>
+    </head>
+    <body background="pic.jpg">
+        <div class="formdiv">
+            <div class="topicdiv">
+                <h3>Sign Up</h3>
+            </div>
+            <form action="submit.php" method="post">
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" placeholder="Enter First Name"></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" placeholder="Enter Lat Name"></td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth</td>
+                    <td><select >
+                            <option >Date</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                        </select>
+                        <select>
+                        <option>Month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        </select>
+                        <select>
+                        <option>Year</option>
+                        <option>2022</option>
+                        <option>2023</option></select></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="r1">Male<input type="radio" name="r1">Female</td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td><select><option>Country</option></select></td>
+                </tr>
+                <tr>
+                    <td>E mail</td>
+                    <td><input type="text" placeholder="Enter E mail"></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="text" placeholder="Enter Phone"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="chec1" >I agree to the terms use</td>
+                </tr>
+            </table>
+                <div class="topicdiv">
+                    <input type="submit" value="Submit" class="s">
+                    <input type="button" value="Cancel" class="b">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
